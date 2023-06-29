@@ -1,0 +1,82 @@
+*{
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura do body como 100% da viewport */
+    justify-content: space-evenly;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .card1 {
+    display: flex;
+    background-color:darkslategrey;
+    border-radius: 10px;
+    border:1px solid black;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 20;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  #back-button{
+    background-color: #E2C044;
+    border: 1px solid antiquewhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: transform 0.3s;
+    transition: color 0.3s;
+  }
+  
+  #back-button:hover{
+    background-color: #AA6DA3;
+    transform: scale(1.1);
+    color: antiquewhite;
+  }
+  
+  #character-name {
+    background-color: darkslategray;
+  }
+  
+  .card2 {
+    float: right;
+    padding: 15px; /* Adiciona 10 pixels de espaçamento interno para todos os lados */
+  }
+  
+  .container {
+    margin-top: 60px; /* Adiciona 20 pixels de espaçamento acima */
+  }
+  
+  .container p {
+    display: flex;
+    font-size: 25px;
+    right: 30%;
+    margin-bottom: 15px; /* Adiciona 10 pixels de espaçamento abaixo de cada parágrafo dentro do .container */
+  }
+  
+  .info {
+    position: absolute;
+    background-color: #B0A8B9;
+    color: black;
+    border:0.5px solid antiquewhite;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
